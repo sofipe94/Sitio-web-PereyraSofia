@@ -1,2 +1,2 @@
 # Mulita
-Es un emprendimiento de venta de láminas para decoración 
+Es un emprendimiento de venta de cuadros para decoración 
