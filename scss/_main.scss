@@ -1,0 +1,45 @@
+main {
+    #main {
+        height: 80vh;
+    }
+    div {
+        aside {
+            background-image: linear-gradient(to bottom,  $background-principal,$background-secundario);
+            .dropdown-menu {
+                background-color: $background-principal
+            }
+        }
+        section {
+            .imagenes {
+                height: 350px;
+                width: 250px;
+                border: solid 5px $background-secundario;
+                margin: 50px;
+                margin-bottom: 20px;
+                display: inline;
+            }
+            .imagenes:hover {
+                transform: scale(1.2);
+            }
+            .laminas {
+                height: 300px;
+                width: 200px;
+                margin: 5px;
+                border: solid 5px  $background-secundario;
+            }
+            .laminas:hover {
+                transform: scale(1.1);
+            }            
+            .accordion-item {
+                background-color: $background-principal;
+            }
+            .accordion-button {
+                background-color: rgb(241, 241, 241);
+                border: solid 0.5px  $background-secundario;
+            }
+            .btn:hover {
+                transform: scale(1.3);
+            }
+        }
+    }
+}
