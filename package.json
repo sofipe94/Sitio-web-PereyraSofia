@@ -1,7 +1,7 @@
 {
   "name": "sitio_web",
   "version": "1.0.0",
-  "description": "Mulita es un emprendimiento de láminas y cuadros ubicado en Madrid",
+  "description": "Mulita es un emprendimiento de láminas y cuadros para decoración ubicado en Madrid",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
