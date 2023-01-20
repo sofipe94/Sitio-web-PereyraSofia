@@ -4,10 +4,7 @@ main {
     }
     div {
         aside {
-            background-image: linear-gradient(to bottom,  $background-principal,$background-secundario);
-            .dropdown-menu {
-                background-color: $background-principal
-            }
+           @include aside; 
         }
         section {
             .imagenes {
@@ -26,7 +23,7 @@ main {
                 width: 200px;
                 margin: 5px;
                 border: solid 5px  $background-secundario;
-            }
+             }
             .laminas:hover {
                 transform: scale(1.1);
             }            

@@ -1,0 +1,6 @@
+@mixin aside {
+    background-image: linear-gradient(to bottom,  $background-principal,$background-secundario);
+    .dropdown-menu {
+                background-color: $background-principal
+            }
+}
