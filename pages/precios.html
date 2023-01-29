@@ -9,70 +9,109 @@
     <title>mulita.precios</title>
 </head>
 <body>
-    <header class="container-fluid">
-      <div id="header" class="row d-flex align-items-center">
-        <div class="col-md-1 h-auto">
-          <img src="../images/Logo/LOGO.png" alt="Logo de la empresa">
+  <header class="container-fluid">
+    <div id="header" class="row">
+       <div class="col-md-1 h-auto d-flex align-items-center justify-content-start">
+        <img src="../images/Logo/LOGO.png" alt="Logo de la empresa">
       </div>
-      <div class="col-md-9 h-auto">
-          <h1>Mulita</h1>
-      </div>
-      <div class="col-md-2 h-auto d-flex justify-content-end">
-          <nav>
-          <a class="btn btn-outline-light" href="../index.html" role="button">Inicio</a>
-          <a class="btn btn-outline-light" href="../pages/contacto.html" role="button">Contacto</a>
-          </nav>
-      </div>  
-      </div>
-    </header>
-    <main class="container-fluid">
-        <div id="main" class="row">
-            <aside class="col-md-1">
-              <div class="dropdown-center d-flex align-items-center justify-content-center">
-                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Menú
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../pages/laminas.html">Láminas</a></li>
-                  <li><a class="dropdown-item" href="../pages/marcos.html">Marcos</a></li>
-                  <li><a class="dropdown-item" href="../pages/precios.html">Precios</a></li>
+      <div class="col-md-5 h-auto d-flex align-items-center justify-content-start">
+        <h1>Mulita</h1>
+      </div> 
+     <div class="d-flex col-md-6 justify-content-end align-items-end">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Láminas
+                </a>
+                <ul class="dropdown-menu" data-bs-theme="dark">
+                  <li><a class="dropdown-item" href="../pages/laminas.html#Botanicas">Botánicas</a></li>
+                  <li><a class="dropdown-item" href="../pages/laminas.html#Geometricas">Geométricas y abstractas</a></li>
+                  <li><a class="dropdown-item" href="../pages/laminas.html#Artistas">Artistas</a></li>
                 </ul>
-              </div>
-            </aside>
-            <section class="col-md-11">
-              <div class="d-flex justify-content-center align-items-center">
-                <h2>Precio de láminas con marco</h2>
-              </div>
-              <div class="d-flex justify-content-center align-items-center">
-                    <ul class="aside__div__ul">
-                        <li>Pequeño 13x18cm €25</li>
-                        <li>Mediano 20x30cm €30</li>
-                        <li>Intermedio 30x40cm €45</li>
-                        <li>Grande 40x50cm €59</li>
-                        <li>Extra Grande 50x70cm €75</li>
-                        <li>XXL 70x100cm €95</li>
-                    </ul>
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                  <h2>Precio de láminas sin marco</h2>
-                </div>
-                <div class="d-flex justify-content-center align-items-center">
-                    <ul class="aside__div__ul">
-                        <li>Pequeño 13x18cm €5</li>
-                        <li>Mediano 20x30cm €9</li>
-                        <li>Intermedio 30x40cm €15</li>
-                        <li>Grande 40x50cm €20</li>
-                        <li>Extra Grande 50x70cm €28</li>
-                        <li>XXL 70x100cm €40</li>
-                    </ul>
-                </div>
-            </section>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/marcos.html">Marcos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/precios.html">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </main> 
-    <footer>
-      <div class="d-flex align-items-center justify-content-start">
-        <img src="../images/Logo/Instagram_logo_2016.svg.webp" alt="Logo de Instagram" id="Instagram">
-        <a class="btn btn-secondary" href="https://www.instagram.com/mulita.estudio/?next=%2F" role="button" target="_blank">@mulita.estudio</a>
+      </nav>
+    </div>
+    </div>
+  </header>
+  <main class="container-fluid">
+    <div id="main-precios" class="row">
+        <section class="col-md-12">
+          <div class="d-flex flex-row">
+            <div class="precios col-md-5 h-auto d-flex flex-column align-items-center justify-content-center">
+              <div class="precios-interior d-flex flex-column align-items-center justify-content-center">
+                <div>
+                  <h4>Precio de láminas con marco</h4>
+                </div>
+                <div>
+                      <ul>
+                          <li>Pequeño 13x18cm €25</li>
+                          <li>Mediano 20x30cm €30</li>
+                          <li>Intermedio 30x40cm €45</li>
+                          <li>Grande 40x50cm €59</li>
+                          <li>Extra Grande 50x70cm €75</li>
+                          <li>XXL 70x100cm €95</li>
+                      </ul>
+                  </div>
+                  <div>
+                    <h4>Precio de láminas sin marco</h4>
+                  </div>
+                  <div>
+                      <ul>
+                          <li>Pequeño 13x18cm €5</li>
+                          <li>Mediano 20x30cm €9</li>
+                          <li>Intermedio 30x40cm €15</li>
+                          <li>Grande 40x50cm €20</li>
+                          <li>Extra Grande 50x70cm €28</li>
+                          <li>XXL 70x100cm €40</li>
+                      </ul>
+                  </div>
+              </div>
+            </div>
+        <div class="espacios-precios col-md-7">
+          <img src="../images/Precios/Precios.png" alt="Precios">
+        </div>
+          </div>
+        </section>
+    </div>
+</main>
+    <footer class="container-fluid">
+      <div id="footer" class="row">
+        <div class="col-md-6 d-flex flex-column align-items-start justify-content-center">
+          <div>
+            <a href="https://www.instagram.com/mulita.estudio/?next=%2F" target="_blank">
+              <img src="../images/Logo/inst.webp" alt="Logo de Instagram">
+            </a>
+            <a href="https://www.instagram.com/mulita.estudio/?next=%2F" target="_blank">@mulita.estudio</a>
+          </div>
+          <div class="d-inline">
+            <img src="../images/Logo/whats.webp" alt="Logo de Whatsapp"> +34 625 816 670
+          </div>
+        </div>
+        <div class="col-md-6 d-flex flex-column align-items-end justify-content-center">
+          <div><p id="p-1">Madrid, España</p></div>
+          <div><p>©2023 Mulita. Todos los derechos reservados.</p></div>
+        </div>
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

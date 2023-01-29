@@ -1,3 +1,12 @@
-$background-principal: rgb(240, 240, 227);
-$background-secundario: rgb(124, 156, 152);
+$background-principal: rgb(255, 252, 240);
+$background-secundario: rgba(130, 155, 152, 0.932);
+$background-resaltar: rgb(240, 240, 227);
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
 

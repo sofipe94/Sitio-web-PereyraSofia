@@ -1,6 +1,78 @@
-@mixin aside {
-    background-image: linear-gradient(to bottom,  $background-principal,$background-secundario);
-    .dropdown-menu {
-                background-color: $background-principal
+@mixin header {
+    #header {
+        height: 15vh;
+        background-color: $background-secundario;
+        div {
+             img {
+                     height: 15vh;
+                     background-color: $background-secundario;
+                }
+        }
+          div {
+             h1{
+                color: white;
+                font-family: 'Times New Roman';
+                font-size: 5rem;
+             }
+          }
+        div {
+            background-color: $background-secundario; 
+            .dropdown-menu {
+                background-color: $background-secundario; 
             }
+            .dropdown-item{
+                background-color: $background-secundario;
+                color: white;
+                font-size: 105%;
+            } 
+            .dropdown-item:hover{
+                background-color: $background-secundario;
+                color: beige;
+            }
+            .nav-link{
+                color: white;
+            }
+            font-size: 105%;
+            color: white;
+        }
+    }
 }
+
+@mixin footer{
+    #footer {
+        background-color: $background-secundario;
+        height:10vh;
+            div {
+                div {
+                    a {
+                        img {
+                        height: 3vh;
+                        background-color: $background-secundario;
+                        }
+                    }
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                    a:hover{
+                        color: beige;
+                    }
+                }
+                div{
+                    color: white;
+                    padding-top: 0.5%;
+                    img{
+                        background-color: $background-secundario;
+                        height: 3vh;
+                    }
+                }
+            }
+            div{
+                p{
+                color: white;
+                padding: 0;
+                margin: 2px; 
+                }
+                }
+        }
+    }

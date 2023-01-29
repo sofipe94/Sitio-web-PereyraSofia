@@ -1,17 +1,1 @@
-header {
-    height: 15vh;
-    background-color: $background-secundario;
-    div {
-        img {
-                height: 15vh;
-                background-color: $background-secundario;
-            }
-    }
-    div {
-        h1{
-            color: white;
-            font-family: 'Lucida Sans';
-            font-size: 5rem;
-        }
-    }
-}
+@include header

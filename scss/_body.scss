@@ -1,5 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body {
-    height: 100vh;
     background-color: $background-principal;
-    font-family: 'Lucida Sans'; 
+    font-family: 'Times New Roman'; 
+}
+body::-webkit-scrollbar{
+    width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: $background-secundario;
 }

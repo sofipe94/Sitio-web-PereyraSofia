@@ -10,61 +10,93 @@
 </head>
 <body>
   <header class="container-fluid">
-    <div id="header" class="row d-flex align-items-center">
-      <div class="col-md-1 h-auto">
+    <div id="header" class="row">
+       <div class="col-md-1 h-auto d-flex align-items-center justify-content-start">
         <img src="../images/Logo/LOGO.png" alt="Logo de la empresa">
-    </div>
-    <div class="col-md-9 h-auto">
+      </div>
+      <div class="col-md-5 h-auto d-flex align-items-center justify-content-start">
         <h1>Mulita</h1>
+      </div> 
+     <div class="d-flex col-md-6 justify-content-end align-items-end">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Láminas
+                </a>
+                <ul class="dropdown-menu" data-bs-theme="dark">
+                  <li><a class="dropdown-item" href="../pages/laminas.html#Botanicas">Botánicas</a></li>
+                  <li><a class="dropdown-item" href="../pages/laminas.html#Geometricas">Geométricas y abstractas</a></li>
+                  <li><a class="dropdown-item" href="../pages/laminas.html#Artistas">Artistas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/marcos.html">Marcos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/precios.html">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-    <div class="col-md-2 h-auto d-flex justify-content-end">
-        <nav>
-        <a class="btn btn-outline-light" href="../index.html" role="button">Inicio</a>
-        <a class="btn btn-outline-light" href="../pages/contacto.html" role="button">Contacto</a>
-        </nav>
-    </div>  
     </div>
   </header>
   <main class="container-fluid">
-      <div id="main" class="row">
-          <aside class="col-md-1">
-            <div class="dropdown-center d-flex align-items-center justify-content-center">
-              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Menú
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="../pages/laminas.html">Láminas</a></li>
-                <li><a class="dropdown-item" href="../pages/marcos.html">Marcos</a></li>
-                <li><a class="dropdown-item" href="../pages/precios.html">Precios</a></li>
-              </ul>
+      <div id="main-marcos" class="row">
+          <section>
+            <div class="titulos col-md-12 d-flex flex-column justify-content-center align-items-center">
+              <h4>¡Todos nuestros marcos vienen con cristal y listos para colgar!</h4>
             </div>
-          </aside>
-          <section class="col-md-11">
-            <div class="d-flex justify-content-center align-items-center">
-              <h2>MARCOS</h2>
-            </div>
-              <div class="d-flex justify-content-center align-items-center"> 
-                <img src="../images/Marcos/Marcos 2.jpeg" alt="Marco uno" class="laminas">
+            <div class="col-md-12 d-flex flex-row">
+              <div class="espacios-marcos col-md-4 d-flex flex-column justify-content-center">
+                <h5 class="d-flex justify-content-center align-items-center">Opciones de maderas para los marcos:</h5>
+                <p class="d-flex justify-content-left align-items-center">Marupá: clara, delicada y uniforme</p>
+                <p class="d-flex justify-content-left align-items-center">Eucalipto: más oscura con un dejo rojizo y tono irregular, propio de la madera</p>
+              </div>
+              <div class="col-md-4 d-flex flex-row justify-content-center align-items-center">
                 <img src="../images/Marcos/Marcos 3.jpeg" alt="Marco dos" class="laminas">
-                <img src="../images/Marcos/Marcos 4.jpg" alt="Marco tres" class="laminas">
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-              <p>
-                Puedes pedirlo en madera clara o el color que tú elijas
-              </p>
-            </div>
-            <div class="d-flex justify-content-center align-items-center">
-              <p>                
-                ¡Todos los marcos vienen con cristal y listos para colgar!
-              </p>
+                <img src="../images/Marcos/Marcos-4.png" alt="Marco tres" class="laminas">
+              </div>
+              <div class="espacios-marcos col-md-4 d-flex flex-column justify-content-center">
+                <h5 class="d-flex justify-content-center align-items-center">Opciones de molduras:</h5>
+                <p class="d-flex justify-content-left align-items-center">Chata: tiene sólo 1 cm de espesor y su ancho (lo que se ve de frente) es de 1,5 cm | 2,5 cm en cuadros de 60x84 cm o mayores</p>
+                <p class="d-flex justify-content-left align-items-center">Curva: tiene 1,6 cm de espesor y también de ancho</p>
+                <p class="d-flex justify-content-left align-items-center">Caja: le decimos así porque es recto y sobresale, la lámina queda hacia atrás. Mide 2,4 cm de espesor y 1,3 cm de ancho (frente)</p>
+              </div>
             </div>
           </section>
       </div>
   </main> 
-  <footer>
-    <div class="d-flex align-items-center justify-content-start">
-      <img src="../images/Logo/Instagram_logo_2016.svg.webp" alt="Logo de Instagram" id="Instagram">
-      <a class="btn btn-secondary" href="https://www.instagram.com/mulita.estudio/?next=%2F" role="button" target="_blank">@mulita.estudio</a>
+  <footer class="container-fluid">
+    <div id="footer" class="row">
+      <div class="col-md-6 d-flex flex-column align-items-start justify-content-center">
+        <div>
+          <a href="https://www.instagram.com/mulita.estudio/?next=%2F" target="_blank">
+            <img src="../images/Logo/inst.webp" alt="Logo de Instagram">
+          </a>
+          <a href="https://www.instagram.com/mulita.estudio/?next=%2F" target="_blank">@mulita.estudio</a>
+        </div>
+        <div class="d-inline">
+          <img src="../images/Logo/whats.webp" alt="Logo de Whatsapp"> +34 625 816 670
+        </div>
+      </div>
+      <div class="col-md-6 d-flex flex-column align-items-end justify-content-center">
+        <div><p id="p-1">Madrid, España</p></div>
+        <div><p>©2023 Mulita. Todos los derechos reservados.</p></div>
+      </div>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
