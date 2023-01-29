@@ -61,11 +61,26 @@
                 color: black;
                 }
             }
+            @media (max-width:576px){
+                #frase-inicio{
+                    h4{
+                        font-size: 1rem;
+                    }
+                }
+                .btn{
+                    height: 300px;
+                    width: 350px;
+                    font-size: 110%;
+                }
+            }
             @media (max-width:768px){
                 #laminas-inicio{
                     height: 100%;
                     padding: 5%;
                     margin: 3%;
+                    img{
+                        height: 85%;
+                    }
                 }
                 .espacios-marcos{
                     height: 20vh;
@@ -112,6 +127,15 @@
             border: solid rgb(28, 26, 26);
         }
     }
+    @media (max-width:1200px){
+        section{
+            height: 100vh;
+        .espacios-contacto{
+            height: 20vh;
+            background-repeat: repeat;
+        }
+    }  
+    }
 }
 #main-precios{
     section{
@@ -127,18 +151,27 @@
             border: solid rgba(0, 0, 0, 0.412);
             padding: 12%;
         }
-        @media (max-width:992px){
-            .precios-interior{
-                padding: 5%;
-                margin: 5%;
-            } 
-        }
         .espacios-precios{
             height: 75vh;
             overflow-y: hidden;
             img{
                 width: 100%;
             }
+        }
+        @media (max-width:576px){
+            .precios-interior{
+                padding: 2%;
+                margin: 2%;
+            } 
+            .espacios-precios{
+                height: 40vh;
+            }
+        }
+        @media (min-width:576px) and (max-width:992px){
+            .precios-interior{
+                padding: 5%;
+                margin: 5%;
+            } 
         }
         @media (min-width:992px) and (max-width:1200px){
             .espacios-precios{

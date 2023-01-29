@@ -17,6 +17,9 @@
              }
            div {
                background-color: $background-secundario; 
+               nav:focus{
+                
+               }
                .dropdown-menu {
                    background-color: $background-secundario; 
                }
@@ -34,6 +37,18 @@
                }
                font-size: 105%;
                color: white;
+           }
+           @media (max-width:576px){
+            div {
+                img {
+                        height: 8vh;
+                   }
+           }
+             div {
+                h1{
+                   font-size: 3rem;
+                }
+             }
            }
     }
 }
@@ -73,6 +88,16 @@
                 padding: 0;
                 margin: 2px; 
                 }
-                }
+            }
         }
+        @media (max-width:576px){
+            #footer {
+                height:20vh;
+                div{
+                    p{
+                    padding: 0%;
+                    }
+                }
+            }
+           }
     }

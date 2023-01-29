@@ -9080,6 +9080,11 @@ body::-webkit-scrollbar-thumb {
       color: beige; }
     #header div .nav-link {
       color: white; }
+  @media (max-width: 576px) {
+    #header div img {
+      height: 8vh; }
+    #header div h1, #header div .h1 {
+      font-size: 3rem; } }
 
 #main-inicio section {
   margin: 0;
@@ -9131,11 +9136,20 @@ body::-webkit-scrollbar-thumb {
     #main-inicio section #precios-inicio a {
       text-decoration: underline;
       color: black; }
+  @media (max-width: 576px) {
+    #main-inicio section #frase-inicio h4, #main-inicio section #frase-inicio .h4 {
+      font-size: 1rem; }
+    #main-inicio section .btn {
+      height: 300px;
+      width: 350px;
+      font-size: 110%; } }
   @media (max-width: 768px) {
     #main-inicio section #laminas-inicio {
       height: 100%;
       padding: 5%;
       margin: 3%; }
+      #main-inicio section #laminas-inicio img {
+        height: 85%; }
     #main-inicio section .espacios-marcos {
       height: 20vh; }
     #main-inicio section .espacios-precios {
@@ -9168,6 +9182,13 @@ body::-webkit-scrollbar-thumb {
     background-color: #1c1a1a;
     border: solid #1c1a1a; }
 
+@media (max-width: 1200px) {
+  #main-contacto section {
+    height: 100vh; }
+    #main-contacto section .espacios-contacto {
+      height: 20vh;
+      background-repeat: repeat; } }
+
 #main-precios section {
   margin: 0;
   padding: 0; }
@@ -9178,15 +9199,21 @@ body::-webkit-scrollbar-thumb {
   #main-precios section .precios-interior {
     border: solid rgba(0, 0, 0, 0.412);
     padding: 12%; }
-  @media (max-width: 992px) {
-    #main-precios section .precios-interior {
-      padding: 5%;
-      margin: 5%; } }
   #main-precios section .espacios-precios {
     height: 75vh;
     overflow-y: hidden; }
     #main-precios section .espacios-precios img {
       width: 100%; }
+  @media (max-width: 576px) {
+    #main-precios section .precios-interior {
+      padding: 2%;
+      margin: 2%; }
+    #main-precios section .espacios-precios {
+      height: 40vh; } }
+  @media (min-width: 576px) and (max-width: 992px) {
+    #main-precios section .precios-interior {
+      padding: 5%;
+      margin: 5%; } }
   @media (min-width: 992px) and (max-width: 1200px) {
     #main-precios section .espacios-precios img {
       height: 100%; } }
@@ -9498,3 +9525,9 @@ section::-webkit-scrollbar-thumb {
     color: white;
     padding: 0;
     margin: 2px; }
+
+@media (max-width: 576px) {
+  #footer {
+    height: 20vh; }
+    #footer div p {
+      padding: 0%; } }
