@@ -2,39 +2,39 @@
     #header {
         height: 15vh;
         background-color: $background-secundario;
-        div {
-             img {
-                     height: 15vh;
-                     background-color: $background-secundario;
+            div {
+                img {
+                        height: 15vh;
+                        background-color: $background-secundario;
+                   }
+           }
+             div {
+                h1{
+                   color: white;
+                   font-family: 'Times New Roman';
+                   font-size: 5rem;
                 }
-        }
-          div {
-             h1{
-                color: white;
-                font-family: 'Times New Roman';
-                font-size: 5rem;
              }
-          }
-        div {
-            background-color: $background-secundario; 
-            .dropdown-menu {
-                background-color: $background-secundario; 
-            }
-            .dropdown-item{
-                background-color: $background-secundario;
-                color: white;
-                font-size: 105%;
-            } 
-            .dropdown-item:hover{
-                background-color: $background-secundario;
-                color: beige;
-            }
-            .nav-link{
-                color: white;
-            }
-            font-size: 105%;
-            color: white;
-        }
+           div {
+               background-color: $background-secundario; 
+               .dropdown-menu {
+                   background-color: $background-secundario; 
+               }
+               .dropdown-item{
+                   background-color: $background-secundario;
+                   color: white;
+                   font-size: 105%;
+               } 
+               .dropdown-item:hover{
+                   background-color: $background-secundario;
+                   color: beige;
+               }
+               .nav-link{
+                   color: white;
+               }
+               font-size: 105%;
+               color: white;
+           }
     }
 }
 

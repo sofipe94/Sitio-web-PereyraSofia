@@ -9110,7 +9110,6 @@ body::-webkit-scrollbar-thumb {
     background-image: url(../images/Inicio/Precios-inicio.png);
     background-attachment: fixed;
     background-size: contain;
-    background-repeat: no-repeat;
     background-position: bottom right; }
   #main-inicio section h3, #main-inicio section .h3 {
     font-weight: 800; }
@@ -9124,12 +9123,27 @@ body::-webkit-scrollbar-thumb {
       text-decoration: underline;
       color: black; }
   #main-inicio section #precios-inicio {
+    padding-left: 3%;
+    padding-right: 3%;
     height: 60vh;
     background-color: #f0f0e3;
     text-align: center; }
     #main-inicio section #precios-inicio a {
       text-decoration: underline;
       color: black; }
+  @media (max-width: 768px) {
+    #main-inicio section #laminas-inicio {
+      height: 100%;
+      padding: 5%;
+      margin: 3%; }
+    #main-inicio section .espacios-marcos {
+      height: 20vh; }
+    #main-inicio section .espacios-precios {
+      height: 20vh; }
+    #main-inicio section #marcos-inicio {
+      height: 40vh; }
+    #main-inicio section #precios-inicio {
+      height: 40vh; } }
 
 #main-contacto section {
   margin: 0;
@@ -9164,11 +9178,18 @@ body::-webkit-scrollbar-thumb {
   #main-precios section .precios-interior {
     border: solid rgba(0, 0, 0, 0.412);
     padding: 12%; }
+  @media (max-width: 992px) {
+    #main-precios section .precios-interior {
+      padding: 5%;
+      margin: 5%; } }
   #main-precios section .espacios-precios {
     height: 75vh;
     overflow-y: hidden; }
     #main-precios section .espacios-precios img {
       width: 100%; }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    #main-precios section .espacios-precios img {
+      height: 100%; } }
 
 #main-marcos section {
   margin: 0;
@@ -9188,6 +9209,15 @@ body::-webkit-scrollbar-thumb {
   #main-marcos section img {
     height: 100%;
     width: 50%; }
+  @media (max-width: 768px) {
+    #main-marcos section .titulos {
+      height: 10vh;
+      font-weight: 800; }
+    #main-marcos section .espacios-marcos {
+      height: 40vh; } }
+  @media (min-width: 768px) and (max-width: 1200px) {
+    #main-marcos section img {
+      width: 100%; } }
 
 #main-laminas section {
   margin: 0;

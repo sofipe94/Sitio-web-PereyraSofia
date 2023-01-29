@@ -34,7 +34,6 @@
                 background-image: url(../images/Inicio/Precios-inicio.png);
                 background-attachment: fixed;
                 background-size: contain;
-                background-repeat: no-repeat;
                 background-position: bottom right
             }  
             h3{
@@ -52,12 +51,33 @@
                     }
                 }
             #precios-inicio{
+                padding-left: 3%;
+                padding-right: 3%;
                 height: 60vh;
                 background-color: $background-resaltar;
                 text-align: center;
                 a{
                 text-decoration: underline;
                 color: black;
+                }
+            }
+            @media (max-width:768px){
+                #laminas-inicio{
+                    height: 100%;
+                    padding: 5%;
+                    margin: 3%;
+                }
+                .espacios-marcos{
+                    height: 20vh;
+                }
+                .espacios-precios{
+                    height: 20vh;
+                }
+                #marcos-inicio{
+                    height: 40vh;
+                }
+                #precios-inicio{
+                    height: 40vh;
                 }
             }
         }
@@ -107,11 +127,24 @@
             border: solid rgba(0, 0, 0, 0.412);
             padding: 12%;
         }
+        @media (max-width:992px){
+            .precios-interior{
+                padding: 5%;
+                margin: 5%;
+            } 
+        }
         .espacios-precios{
             height: 75vh;
             overflow-y: hidden;
             img{
-                width: 100%; 
+                width: 100%;
+            }
+        }
+        @media (min-width:992px) and (max-width:1200px){
+            .espacios-precios{
+                img{
+                    height: 100%; 
+                }
             }
         }
     }
@@ -139,6 +172,20 @@
             height: 100%;
             width: 50%;
         }
+         @media (max-width: 768px){
+             .titulos{
+                height: 10vh;
+                font-weight: 800;
+             }
+             .espacios-marcos{
+                height: 40vh;
+             }
+         }
+         @media (min-width: 768px) and (max-width:1200px){
+            img{
+                width: 100%;
+            }
+         }
     }
 }
 #main-laminas{
