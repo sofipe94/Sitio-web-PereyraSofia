@@ -9082,9 +9082,9 @@ body::-webkit-scrollbar-thumb {
       color: white; }
   @media (max-width: 576px) {
     #header div img {
-      height: 8vh; }
+      height: 7vh; }
     #header div h1, #header div .h1 {
-      font-size: 3rem; } }
+      font-size: 2rem; } }
 
 #main-inicio section {
   margin: 0;
@@ -9245,6 +9245,9 @@ body::-webkit-scrollbar-thumb {
   @media (min-width: 768px) and (max-width: 1200px) {
     #main-marcos section img {
       width: 100%; } }
+  @media (min-width: 1200px) {
+    #main-marcos section img {
+      height: 60vh; } }
 
 #main-laminas section {
   margin: 0;
@@ -9528,6 +9531,6 @@ section::-webkit-scrollbar-thumb {
 
 @media (max-width: 576px) {
   #footer {
-    height: 20vh; }
+    height: 30vh; }
     #footer div p {
       padding: 0%; } }

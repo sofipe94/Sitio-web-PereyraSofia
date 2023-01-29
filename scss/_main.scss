@@ -219,6 +219,11 @@
                 width: 100%;
             }
          }
+         @media (min-width:1200px){
+            img{
+                height: 60vh;
+            }
+         }
     }
 }
 #main-laminas{

@@ -17,9 +17,6 @@
              }
            div {
                background-color: $background-secundario; 
-               nav:focus{
-                
-               }
                .dropdown-menu {
                    background-color: $background-secundario; 
                }
@@ -41,12 +38,12 @@
            @media (max-width:576px){
             div {
                 img {
-                        height: 8vh;
+                        height: 7vh;
                    }
            }
              div {
                 h1{
-                   font-size: 3rem;
+                   font-size: 2rem;
                 }
              }
            }
@@ -92,7 +89,7 @@
         }
         @media (max-width:576px){
             #footer {
-                height:20vh;
+                height:30vh;
                 div{
                     p{
                     padding: 0%;
